@@ -68,14 +68,15 @@ public class Frame extends JFrame {
         lblTitulo.setHorizontalAlignment(SwingConstants.CENTER);
         panelSecundario.add(lblTitulo);
 
-        JButton btnNewButton_6 = new JButton("New button");
+        JButton btnNewButton_6 = new JButton("¡Hágase socio!");
+        btnNewButton_6.setFont(new Font("Tahoma", Font.BOLD, 20));
         btnNewButton_6.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
                 switchPane();
             }
         });
-        btnNewButton_6.setBounds(160, 141, 89, 23);
+        btnNewButton_6.setBounds(104, 142, 199, 39);
         panelSecundario.add(btnNewButton_6);
     }
 
